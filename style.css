@@ -85,7 +85,7 @@ main #p2{
     width: 80%;
 
 }
-.socials a{
+.socials li {
     background-color: hsl(0, 0%, 20%);
     margin: 15px 0 ;
     width: 100%;
@@ -95,9 +95,11 @@ main #p2{
     font-weight: 600;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+    list-style-type: none;
 }
 
-.socials a button{
+.socials li a{
+    text-decoration: none;
     border: none;
     background-color: transparent;
     font-size: 14px;
@@ -106,15 +108,11 @@ main #p2{
     color: hsl(0, 0%, 100%);
 }
 
-.socials a:hover{
+.socials li:hover{
     color: hsl(0, 0%, 0%);
     background-color: hsl(75, 94%, 57%);
 }
 
-.socials button:hover{
-    color: hsl(0, 0%, 0%);
-    background-color: hsl(75, 94%, 57%);
-}
 
 .attribution { 
     font-size: 11px; 
